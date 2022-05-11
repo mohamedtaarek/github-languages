@@ -1,0 +1,7 @@
+/django_environment
+venv
+*.pyc
+db.sqlite3
+**/__pycache__/*
+.vscode
+.env.json
