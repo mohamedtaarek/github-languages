@@ -15,7 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from .apis import TrendingReposAPI
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('trending-repos/',TrendingReposAPI.as_view())
 ]
